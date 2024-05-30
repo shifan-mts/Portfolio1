@@ -1,0 +1,164 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing:border-box;
+}
+navbar{
+    background-color: white;
+}
+.nav-link{
+    color: black;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: none;
+}
+.nav-link:hover{
+    color: white;
+    background-color: black;
+}
+.main{
+    background: url(shif-fotor-202306242141451.png) no-repeat;
+    width: 100%;
+    height: 95vh;
+    background-position: 50rem 75px;
+}
+@media (max-width: 600px) {
+    .main {
+        background-position:  center 25px;
+    }
+}
+
+@media (max-width:600px){
+    .main{
+        background: url(shif-fotor-202306242141451.png);;
+    }
+}
+
+.main h3{
+    font-size: 4.4rem;
+    font-weight: 700;
+}
+
+.main h6{
+    font-size: 1.4rem;
+    line-height: 1;
+    text-transform: capitalize;
+    border-bottom: 0.2rem solid rgb(233, 20, 109);
+    text-wrap: nowrap;
+    width: 33%;
+}
+.main .btn1{
+    height: 35px;
+    width: 100px;
+    font-weight: bold;
+    background-color: rgb(233, 20, 109);
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
+.main .btn1:hover{
+    background-color:  rgb(173, 2, 73);
+    transition: 0.5s;
+}
+
+.main .btn2{
+    height: 35px;
+    width: 100px;
+    font-weight: bold;
+    background-color: transparent;
+    color:  rgb(233, 20, 109);
+    outline: none;
+    border: 1px solid  rgb(233, 20, 109);
+    border-radius: 5px;
+}
+
+.main .btn2:hover{
+    background-color:  rgb(233, 20, 109);
+    color: white;
+    transition: 0.5s;
+}.about img{
+    -webkit-box-shadow: 6px 10px 15px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: 6px 10px 15px -1px rgba(0,0,0,0.75);
+box-shadow: 6px 10px 15px -1px rgba(0,0,0,0.75);
+}
+h1{
+    font-size: 3rem;
+    font-weight: 900;
+}
+.progress{
+    
+    justify-content: flex-start;
+    background-color: white;
+    align-items: center;
+    position: relative;
+    display: flex;
+    height: 25px;
+    width: 100%;
+}
+.pro-value1{
+    animation:load1 3s normal forwards;
+    border-radius: 50px;
+    background-color: black;
+    height: 25px;
+    width: 0;
+}
+.pro-value2{
+    animation:load2 3s normal forwards;
+    border-radius: 50px;
+    background-color: black;
+    height: 25px;
+    width: 0; }
+.pro-value3{
+        animation:load3 3s normal forwards;
+        border-radius: 50px;
+        background-color: black;
+        height: 25px;
+        width: 0; }
+.pro-value4{
+            animation:load4 3s normal forwards;
+            border-radius: 50px;
+            background-color: black;
+            height: 25px;
+            width: 0; }
+.progress p{
+    color: white;
+    padding: 6px;
+}
+
+@keyframes load1{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 95%;
+    }
+}
+
+        
+@keyframes load4{
+    0%{
+        width: 0;
+        }
+    100%{
+        width: 75%;
+        }
+            }
+@keyframes load3{
+    0%{
+        width: 0;
+        }
+    100%{
+        width: 80%;
+        }
+            }
+@keyframes load2{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 80%;
+    }
+            }            
